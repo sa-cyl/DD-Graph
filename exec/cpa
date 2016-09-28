@@ -1,0 +1,4 @@
+scp bin/example_apps/pagerank root@192.168.2.80:/home
+scp bin/example_apps/pagerank root@192.168.2.77:/home
+scp bin/example_apps/pagerank root@192.168.2.65:/home
+scp bin/example_apps/pagerank root@192.168.2.69:/home

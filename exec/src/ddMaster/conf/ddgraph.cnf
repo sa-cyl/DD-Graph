@@ -1,0 +1,30 @@
+
+# GraphChi configuration.
+# Commandline parameters override values in the configuration file.
+# execthreads=2
+#try for server
+execthreads=24
+#try for server
+loadthreads = 8
+#try for server
+niothreads = 4
+
+# Good for 8gigs
+#membudget_mb = 3000
+
+# Good for 4 gigs
+#membudget_mb = 800
+
+# try for 16 gigs
+membudget_mb = 6000
+
+# I/O settings
+#preload.max_megabytes = 300
+io.blocksize = 1048576 
+disable-modtime-check = 1
+
+# Comma-delimited list of metrics output reporters.
+# Can be "console", "file" or "html"
+metrics.reporter = console,file,html
+metrics.reporter.filename = ddgraph_metrics.txt
+metrics.reporter.htmlfile = ddgraph_metrics.html
